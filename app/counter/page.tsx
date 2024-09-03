@@ -3,7 +3,7 @@ import React from 'react'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { useState, useRef, useEffect, ChangeEvent } from "react";
-const counter = () => {
+const countTimer = () => {
     const [duration, setDuration] = useState<number | string>("");
     const [timeLeft, setTimeLeft] = useState<number>(0);
     const [isActive, setIsActive] = useState<boolean>(false);
@@ -98,4 +98,4 @@ const counter = () => {
   )
 }
 
-export default counter
+export default countTimer

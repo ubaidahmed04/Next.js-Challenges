@@ -1,0 +1,65 @@
+{
+    "courses": [
+        {
+          "id": 1,
+          "title": "Mastering React",
+          "slug": "mastering-react",
+          "description": "An in-depth course on React.js covering hooks, state management, and more.",
+          "price": 99.99,
+          "instructor": "Jane Doe",
+          "isFeatured": true,
+          "image": "https://example.com/images/react-course.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Advanced JavaScript",
+          "slug": "advanced-javascript",
+          "description": "Learn advanced JavaScript concepts including closures, promises, and async/await.",
+          "price": 79.99,
+          "instructor": "John Smith",
+          "isFeatured": true,
+          "image": "https://example.com/images/js-course.jpg"
+        },
+        {
+          "id": 3,
+          "title": "UI/UX Design Principles",
+          "slug": "ui-ux-design-principles",
+          "description": "A comprehensive guide to UI/UX design, focusing on user-centered design techniques.",
+          "price": 119.99,
+          "instructor": "Emily Johnson",
+          "isFeatured": false,
+          "image": "https://example.com/images/ui-ux-course.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Python for Data Science",
+          "slug": "python-data-science",
+          "description": "Learn Python programming and its applications in data science and machine learning.",
+          "price": 89.99,
+          "instructor": "Michael Brown",
+          "isFeatured": true,
+          "image": "https://example.com/images/python-course.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Full-Stack Web Development",
+          "slug": "full-stack-web-development",
+          "description": "Become a full-stack developer by mastering both front-end and back-end technologies.",
+          "price": 149.99,
+          "instructor": "Linda Davis",
+          "isFeatured": false,
+          "image": "https://example.com/images/full-stack-course.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Digital Marketing Strategies",
+          "slug": "digital-marketing-strategies",
+          "description": "Learn effective digital marketing strategies, including SEO, content marketing, and social media.",
+          "price": 69.99,
+          "instructor": "David Wilson",
+          "isFeatured": true,
+          "image": "https://example.com/images/digital-marketing-course.jpg"
+        }
+      ]
+      
+}
