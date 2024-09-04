@@ -27,7 +27,7 @@
           "description": "A comprehensive guide to UI/UX design, focusing on user-centered design techniques.",
           "price": 119.99,
           "instructor": "Emily Johnson",
-          "isFeatured": false,
+          "isFeatured": true,
           "image": "https://example.com/images/ui-ux-course.jpg"
         },
         {
@@ -47,7 +47,7 @@
           "description": "Become a full-stack developer by mastering both front-end and back-end technologies.",
           "price": 149.99,
           "instructor": "Linda Davis",
-          "isFeatured": false,
+          "isFeatured": true,
           "image": "https://example.com/images/full-stack-course.jpg"
         },
         {
