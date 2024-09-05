@@ -9,9 +9,9 @@ const Footer = () => {
         <div>
           <h3 className="text-2xl font-bold mb-4">Programming Academy</h3>
           <p className="text-sm mb-4">
-            Learn the latest in programming with our experienced instructors and modern curriculum.
+            Learn the latest in programming with our experienced instructors and modern curriculum&rsquo;
           </p>
-          <p className="text-sm">© 2024 Programming Academy. All rights reserved.</p>
+          <p className="text-sm">© 2024 Programming Academy&rsquo; All rights reserved&rsquo;</p>
         </div>
   
         {/* Quick Links */}
