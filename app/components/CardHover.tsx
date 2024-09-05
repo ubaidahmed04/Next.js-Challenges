@@ -1,17 +1,27 @@
 "use client"
+import Link from "next/link";
 import { HoverEffect } from "./ui/card-hover-effect";
+import { Button } from "./ui/moving-border";
 
 export function CardHover() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-8 flex justify-center items-center flex-col">
          <div className="text-center py-9">
                 <h2 className="text-3xl uppercase text-green-600 font-bold">Featured Course</h2>
                 <p className="text-6xl py-8 uppercase text-white font-bold">Learn With the best</p>
             </div>
       <HoverEffect items={courses} />
+      <div>
+      <div className="mt-20  shadow-lg py-4 text-neutral-700 bg-white transition duration-200 px-4 mx-auto border-neutral-100 text-center">
+            <Link href={'/courses'}>
+            View All Courses
+            </Link>
+        </div>
+      </div>
     </div>
   );
 }
+// const pr = document.querySelector
 export const courses = [
     {
       title: "Mastering React",
