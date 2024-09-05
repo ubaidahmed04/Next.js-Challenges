@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CountDown from "./counter/page";
+// import CountDown from "./counter/page";
 import Weather from "./weather/page";
 import HeroSection from "./components/heroSection";
 import {FeatureCourse} from "./components/Cards";
