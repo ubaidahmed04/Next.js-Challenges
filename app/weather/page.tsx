@@ -16,11 +16,11 @@ interface WeatherData {
     description?: string;
   }>;
 }
-
+const [location, setLocation] = useState<string>('');
+const [isLoading, setIsLoading] = useState<boolean>(false);
+const [data, setData] = useState<WeatherData | null>(null);
 const WeatherComponent: React.FC = () => {
-  const [location, setLocation] = useState<string>('');
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [data, setData] = useState<WeatherData | null>(null);
+
 
   const getCurrentPosition = (): Promise<GeolocationPosition> => {
     return new Promise((resolve, reject) => {
