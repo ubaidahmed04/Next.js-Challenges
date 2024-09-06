@@ -8,16 +8,18 @@ import {MovingCard} from "./components/movingCard";
 import {CardHover} from "./components/CardHover";
 import {WavyBackgroundDemo} from "./components/WavyBackground";
 import Footer from './components/Footer'
+import {MagicUI} from "./MagicUI/page";
 export default function Home() {
   return (
     <main className=" min-h-screen  bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-       <HeroSection/>
+       {/* <HeroSection/>
        <FeatureCourse/>
        <StickyScroller/>
        <MovingCard/>
        <CardHover/>
        <WavyBackgroundDemo/>
-       <Footer/>
+       <Footer/> */}
+       <MagicUI/>
        
           </main>
   );
